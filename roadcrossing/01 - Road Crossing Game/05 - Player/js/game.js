@@ -33,6 +33,7 @@ gameScene.create = function() {
   // goal
   this.goal = this.add.sprite(this.sys.game.config.width - 80, this.sys.game.config.height / 2, 'goal');
   this.goal.setScale(0.6);
+  console.log(this.input);
 };
 
 // this is called up to 60 times per second

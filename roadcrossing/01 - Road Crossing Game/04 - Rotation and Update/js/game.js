@@ -31,8 +31,8 @@ gameScene.create = function() {
   //this.enemy1.setAngle(45);
 
   //this.enemy1.setOrigin(0, 0);
-  this.enemy1.rotation = Math.PI / 4;
-  this.enemy1.setRotation(Math.PI / 4);
+  this.enemy1.rotation = -Math.PI / 4;
+  this.enemy1.setRotation(-Math.PI / 4);
 
   console.log(this.enemy1);
 
